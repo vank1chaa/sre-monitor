@@ -53,5 +53,8 @@ helm upgrade --install sre-monitor ./charts/sre-monitor
 ## 6. Port Forward the Service:
 kubectl port-forward svc/sre-monitor 8000:8000
 
-## 7. Check from VM or browser:
+## 7.1 Check from VM:
 curl http://localhost:8000
+
+## 7.2 Check from browser:
+http://localhost:8000
