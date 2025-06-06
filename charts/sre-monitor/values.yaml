@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: sre-monitor
+  tag: latest
+  pullPolicy: Never
+
+service:
+  type: ClusterIP
+  port: 8000
