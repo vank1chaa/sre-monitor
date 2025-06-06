@@ -12,7 +12,7 @@ A simple Python-based monitoring service that checks the availability and respon
 - curl, wget, tree
   
 
-## Install Docker:
+### Install Docker:
 sudo zypper install docker
 sudo systemctl enable --now docker
 
